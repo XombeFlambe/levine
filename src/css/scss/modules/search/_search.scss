@@ -1,0 +1,51 @@
+.search {
+	display: inline-block;
+	position: relative;
+}
+
+input[type="search"],
+input[type="text"].search-input,
+.search-input {
+	width: 300px;
+    padding: 6px 20px 6px 6px;
+    margin: 0;
+    border-radius: 15px;
+    border: none;
+    box-sizing: border-box;
+    background: $white;
+    font-family: $font_primary;
+    font-size: 14px;
+    font-weight: 300;
+    vertical-align: top;
+}
+
+input[type="search"]:focus,
+input[type="text"].search-input:focus,
+.search-input:focus {
+	border: none;
+}
+
+.search-btn {
+	display: inline-block;
+	position: absolute;
+	top: 6px;
+	right: 5px;
+	color: $gray_dark;
+	font-size: 16px;
+	line-height: 1;
+	cursor: pointer;
+}
+
+.search-submit {
+	width: 26px;
+	height: 30px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: none;
+	background: none;
+	text-indent: -9999px;
+	cursor: pointer;
+}
+
+.search-input_fixedWidth {width: 300px;}

@@ -1,0 +1,17 @@
+// ------------------------------------------------------------------
+// Header Med
+// ------------------------------------------------------------------
+$header_height: 76px;
+
+.header {
+	min-height: $header_height;
+	padding: 10px 20px;
+}
+
+.header-logo a {
+	float: left;
+	color: $white;
+	font-family: $font_heading;
+	font-size: 42px;
+	font-weight: 400;
+}

@@ -1,0 +1,39 @@
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Everything DiSC Prototype</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <!-- STYLESHEETS -->
+        <!--build:css css/css/modern.min.css-->
+        <link rel="stylesheet" href="./css/css/modern.css">
+        <!-- endbuild -->
+
+        <!-- FONTS -->
+        <link href="https://fonts.googleapis.com/css?family=Anton|Oswald:300,400,600,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    </head>
+    <body>
+
+        {% include "partials/_header.html" %}
+        {% block content %} {% endblock %}
+        {% include "partials/_footer.html" %}
+
+        <!-- BACK TO TOP OF PAGE BUTTON -->
+        <a href="#" class="topside js-topside">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+
+        <!--build:js js/main.min.js --><!-- endbuild -->
+        <script src="js/vendor/jquery-1.11.3.min.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- SCROLL ME JS -->
+        <script src="js/vendor/jquery.scrollme.min.js"></script>
+        
+    </body>
+</html>

@@ -1,0 +1,43 @@
+/*----------------------------------------------------------------------
+ Tab Styles
+----------------------------------------------------------------------*/
+.tab {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.tab-trigger {
+	margin-bottom: 20px;
+	width: 100%;
+	border-bottom: 1px solid $brand;
+	@include clearfix();
+	
+	li {
+		float: left;
+		overflow: hidden;
+		position: relative;
+	}
+
+	a {
+		display: block;
+		outline: none;
+		padding: 10px 20px;
+		border-bottom: 3px solid rgba(255,255,255,0);
+		text-decoration: none;
+		-webkit-transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+	}
+
+	.isActive a {
+		border-bottom: 3px solid $brand;
+		color: $gray_dark;
+		cursor: default;
+	}
+}
+
+.tab-content-item {
+	display: none;
+}
+
+.tab-content-item:first-child {display: block;}

@@ -1,0 +1,19 @@
+//----------------------------------------------------------------------
+// Media Box Object
+//----------------------------------------------------------------------
+.mediaBox {
+	@include clearfix();
+}
+
+.mediaBox-media {
+	max-width: 420px;
+	margin: 0 40px 10px 0;
+	float: left;
+}
+
+.mediaBox-media > * {width: 100%;}
+
+.mediaBox_right .mediaBox-media {
+	margin: 0 0 10px 20px;
+	float: right;
+}

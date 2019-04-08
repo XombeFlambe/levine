@@ -1,0 +1,35 @@
+html,
+body {
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+	background: $white;
+  	@include baseText();
+}
+
+body * {box-sizing: border-box;}
+
+body.bodyFixedNav {padding-top: 100px;}
+
+a {@include baseLink();}
+
+a:hover,
+a:focus {text-decoration: underline;}
+
+p {margin-bottom: 20px;}
+
+pre {word-wrap: break-word;}
+
+sup {
+	vertical-align: top;
+	font-size: .6em;
+}
+
+::selection {
+  background: #70c4c2; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #70c4c2; /* Gecko Browsers */
+}

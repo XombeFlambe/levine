@@ -1,0 +1,54 @@
+/*----------------------------------------------------------------------
+ Step Styles
+----------------------------------------------------------------------*/
+$steps: 3;
+
+.step {
+	position: relative;
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+
+.step-trigger {
+	margin: 0 auto 20px;
+	width: 100%;
+	text-align: center;
+	
+	li {
+		display: inline-block;
+	}
+
+	a {
+		display: block;
+		outline: none;
+		margin: 0 10px;
+		padding: 15px 25px;
+		border: 3px solid $gray_light;
+		text-decoration: none;
+		transition: all 0.2s ease-in-out;
+	}
+
+	a.isActive {
+		border: 3px solid $brand;
+		box-shadow: 0 0 5px 2px rgba(0,0,0,.2);
+		color: $gray_dark;
+		cursor: default;
+		transform: scale(1.2);
+	}
+}
+
+.step > div {
+	width: 100% * $steps;
+	overflow: hidden;
+	background: $white;
+	text-align: center;
+	transition: transform 1s ease-in-out;
+}
+
+.step-content_2 {transform: translate(-100% / $steps * 1 , 0);}
+.step-content_3 {transform: translate(-100% / $steps * 2 , 0);}
+
+.step-content-item {
+	width: 100% / $steps;
+	float: left;
+}

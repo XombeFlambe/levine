@@ -1,0 +1,15 @@
+//----------------------------------------------------------------------
+// Button List Styles
+//----------------------------------------------------------------------
+.btnList {
+	text-align: center;
+}
+
+.btnList > li {
+	display: inline-block;
+	margin: 0 9px 20px;
+}
+
+.btnList > li > a {
+	min-width: 260px;
+}

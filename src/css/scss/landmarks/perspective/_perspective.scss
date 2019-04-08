@@ -1,0 +1,13 @@
+//----------------------------------------------------------------------
+// Perspective Styles
+//----------------------------------------------------------------------
+.perspective {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	perspective: 1px;
+	overflow-y: scroll;
+  	overflow-x: hidden;
+  	z-index: -1;
+}

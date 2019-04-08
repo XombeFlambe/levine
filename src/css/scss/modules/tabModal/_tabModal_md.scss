@@ -1,0 +1,28 @@
+/*----------------------------------------------------------------------
+ Tab Modal Styles
+----------------------------------------------------------------------*/
+.tabModal {
+	margin-bottom: 20px;
+}
+
+.tabModal-trigger {
+	
+	li {
+		display: inline-block;
+		margin: 0 10px 20px;
+	}
+
+	a {min-width: 260px;}
+}
+
+.tabModal-content {
+	padding: 150px 10px 80px;
+}
+
+.tabModal-content-close {
+	width: 45px;
+	height: 45px;
+	right: 20px;
+	top: 90px;
+	font-size: 40px;
+}
