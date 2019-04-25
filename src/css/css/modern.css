@@ -1524,11 +1524,15 @@ input[type="text"].search-input:focus,
     border-right: 5px solid #2179a5;
     transform: translateY(3px) rotate(37.5deg) skew(-15deg); }
   .section {
-    display: table;
+    display: block;
     width: 100%;
     min-height: 100vh; }
   .section_pad {
     padding: 20px; }
+  .section-table {
+    display: table;
+    width: 100%;
+    min-height: 91vh; }
   .section-cell {
     display: table-cell;
     padding: 20px;

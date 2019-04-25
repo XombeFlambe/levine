@@ -1557,12 +1557,17 @@ input[type="text"].search-input:focus,
   transform: translateY(3px) rotate(37.5deg) skew(-15deg); }
 
 .section {
-  display: table;
+  display: block;
   width: 100%;
   min-height: 100vh; }
 
 .section_pad {
   padding: 20px; }
+
+.section-table {
+  display: table;
+  width: 100%;
+  min-height: 91vh; }
 
 .section-cell {
   display: table-cell;
